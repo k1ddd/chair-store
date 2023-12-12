@@ -126,7 +126,85 @@ legend {
   --font-footer-accent: "DM Sans", sans-serif;
 }
 
-html, body {
+html,
+body {
   font-family: var(--font-main);
   color: var(--text-color);
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 40px;
+  background-color: var(--footer-bg);
+  background-image: url("../../img/header/header-bg.jpg");
+  aspect-ratio: 1440/1084;
+  background-size: cover;
+  color: var(--header-text-color);
+}
+.header a {
+  color: var(--header-text-color);
+}
+.header__title {
+  margin-top: 80px;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  text-transform: capitalize;
+}
+.header__content {
+  text-align: center;
+}
+.header p {
+  margin-top: 14px;
+  margin: 0 auto;
+  max-width: 606px;
+  font-size: 24px;
+  line-height: 160%; /* 38.4px */
+}
+.header .search-form {
+  margin-top: 45px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  gap: 20px;
+}
+.nav__logo {
+  align-self: center;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+}
+.nav-list {
+  display: flex;
+  gap: 65px;
+  align-self: center;
+  justify-self: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav .cart {
+  align-self: center;
+  justify-self: end;
+  position: relative;
+}
+.nav .cart__count {
+  display: inline-block;
+  height: 25px;
+  padding: 0 6px;
+  line-height: 25px;
+  align-content: center;
+  background-color: var(--accent);
+  border-radius: 40px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  right: -11px;
 }/*# sourceMappingURL=main.css.map */

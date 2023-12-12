@@ -1,0 +1,35 @@
+.header {
+  padding-top: 40px;
+  background-color: var(--footer-bg);
+  background-image: url("../../img/header/header-bg.jpg");
+  aspect-ratio: 1440 / 1084;
+  background-size: cover;
+  color: var(--header-text-color);
+  a {
+    color: var(--header-text-color);
+  }
+
+  &__title {
+    margin-top: 80px;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  p {
+    margin-top: 14px;
+    margin: 0 auto;
+    max-width: 606px;
+    font-size: 24px;
+
+    line-height: 160%; /* 38.4px */
+  }
+  .search-form {
+    margin-top: 45px;
+  }
+}

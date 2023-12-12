@@ -1,4 +1,11 @@
+// Base
+
 @import "./../fonts/Gilroy/stylesheet.css";
 @import "./base/reset";
 @import "./base/vars";
 @import "./base/base";
+
+// Blocks
+
+@import "./blocks/header";
+@import "./blocks/nav";
