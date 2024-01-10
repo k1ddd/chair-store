@@ -13,6 +13,8 @@
     height: 10px;
     border-radius: 50%;
     background-color: #fff;
+
+    transition: all 0.2s ease-in;
   }
 
   &__radius {
@@ -29,7 +31,7 @@
   animation: pulse 1s infinite alternate paused;
 }
 .info-dot:hover .info-dot__circle {
-  background-color: orange;
+  background-color: var(--accent);
 }
 
 @keyframes pulse {
