@@ -138,6 +138,10 @@ body {
   margin: 0 auto;
 }
 
+.none {
+  display: none !important;
+}
+
 .header {
   position: relative;
   padding-top: 40px;
@@ -304,6 +308,10 @@ body {
   }
 }
 .info-hint {
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translate(-50%, -100%);
   display: flex;
   gap: 8px;
   width: 112px;
@@ -344,4 +352,15 @@ body {
 }
 .info-hint__radio-fake--turqgrayuoise {
   background-color: var(--ui-turqgrayuoise);
+}
+
+.benefits {
+  padding: 120px 0;
+}
+.benefits__grid {
+  display: grid;
+}
+.benefits__title {
+  font-weight: 700;
+  font-size: 42px;
 }/*# sourceMappingURL=main.css.map */

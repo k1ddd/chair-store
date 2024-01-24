@@ -1,0 +1,12 @@
+.benefits {
+  padding: 120px 0;
+
+  &__grid {
+    display: grid;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 42px;
+  }
+}
